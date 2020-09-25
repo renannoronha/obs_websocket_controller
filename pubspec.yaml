@@ -1,8 +1,7 @@
 name: obs_websocket_controller
-description: A new Flutter package project.
+description: A package to connect to OBS using the obs-websocket plugin.
 version: 0.0.1
-author:
-homepage:
+homepage: https://github.com/renannoronha/obs_websocket_controller
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
