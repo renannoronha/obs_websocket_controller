@@ -1,7 +1,7 @@
-name: obs_websocket_controller
+name: obs_websocket_dart
 description: A package to connect to OBS using the obs-websocket plugin.
 version: 0.0.1
-homepage: https://github.com/renannoronha/obs_websocket_controller
+homepage: https://github.com/renannoronha/obs_websocket_dart
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

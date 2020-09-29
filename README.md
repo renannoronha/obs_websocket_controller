@@ -1,4 +1,4 @@
-# obs_websocket_controller
+# obs_websocket_dart
 
 I needed a way to connect to [OBS](https://obsproject.com/) (Open Broadcast Software) that was easy to use and allowed me to fully control it. Endded up using this [repository](https://github.com/faithoflifedev/obsWebsocket) as a base to make my own package.
 
@@ -11,7 +11,7 @@ In your flutter project pubspec.yaml add the dependency:
 ```yml
 dependencies:
   ...
-  obs_websocket_controller: ^0.0.1
+  obs_websocket_dart: ^0.0.1
 ```
 
 ## Example
@@ -21,7 +21,7 @@ Import the library, create the object, set the data and call the connect functio
 Connection with password:
 
 ```dart
-import 'package:obs_websocket_controller/obs_websocket_controller.dart';
+import 'package:obs_websocket_dart/obs_websocket_dart.dart';
 
 ObsWebsocket obs = new ObsWebsocket();
 obs.setAddress('127.0.0.1');
@@ -33,7 +33,7 @@ await state.obs.connect();
 Connection without password:
 
 ```dart
-import 'package:obs_websocket_controller/obs_websocket_controller.dart';
+import 'package:obs_websocket_dart/obs_websocket_dart.dart';
 
 ObsWebsocket obs = new ObsWebsocket();
 obs.setAddress('127.0.0.1');

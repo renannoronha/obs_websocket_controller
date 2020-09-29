@@ -1,4 +1,4 @@
-library obs_websocket_controller;
+library obs_websocket_dart;
 
 import 'dart:convert';
 
