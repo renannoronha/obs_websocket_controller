@@ -27,7 +27,7 @@ ObsWebsocket obs = new ObsWebsocket();
 obs.setAddress('127.0.0.1');
 obs.setPort('4444');
 obs.setPassword('*****');
-await state.obs.connect();
+await obs.connect();
 ```
 
 Connection without password:
@@ -38,7 +38,7 @@ import 'package:obs_websocket_dart/obs_websocket_dart.dart';
 ObsWebsocket obs = new ObsWebsocket();
 obs.setAddress('127.0.0.1');
 obs.setPort('4444');
-await state.obs.connect();
+await obs.connect();
 ```
 
 ## Sending Commands
