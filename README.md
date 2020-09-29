@@ -11,7 +11,7 @@ In your flutter project pubspec.yaml add the dependency:
 ```yml
 dependencies:
   ...
-  obs_websocket_dart: ^0.0.1
+  obs_websocket_dart: ^0.0.2
 ```
 
 ## Example

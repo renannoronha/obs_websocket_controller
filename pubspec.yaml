@@ -1,6 +1,6 @@
 name: obs_websocket_dart
 description: A package that gives you an easy-to-use API to connect to OBS using the obs-websocket plugin.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/renannoronha/obs_websocket_dart
 
 environment:
